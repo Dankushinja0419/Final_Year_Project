@@ -1,0 +1,111 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m8119551F50F7ADA07D98CBB4ADDDB356430636E8 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m888967EE98251027EAC905EED637164847D9B309 (void);
+extern void PreExportShaders__cctor_m7AE3CC2D78F8C976B9FBFCD46349DEC57C2CCE7C (void);
+extern void PreShaderPropExporter_get_Standard_m770F5F2EC94A939E0C17941F4FFBA7E25381C40D (void);
+extern void PreShaderPropExporter_get_UniGLTF_UniUnlit_mE250B6D28FB54A6AFED114131E5752749219AFBF (void);
+extern void PreShaderPropExporter_get_Unlit_Color_m5C27BEBB5AB4842F30F1D94E71342A330D6E2A70 (void);
+extern void PreShaderPropExporter_get_Unlit_Texture_m784822B229B0657093C53EBEB6346A9DCE5D8D40 (void);
+extern void PreShaderPropExporter_get_Unlit_Transparent_m74811D559A78EF9F2830DAF545257A16A2011FA5 (void);
+extern void PreShaderPropExporter_get_Unlit_Transparent_Cutout_mF12C89C2D4764A2B0FB271466473287D30E46A6D (void);
+extern void PreShaderPropExporter_GetPropsForSupportedShader_m83C332420D67AC339278F052EA491B2A256AB163 (void);
+extern void PreShaderPropExporter_get_VRM_MToon_mD4075D49BFACB21DF5807D65389240389D10D239 (void);
+extern void PreShaderPropExporter_get_VRM_UnlitCutout_m3BBCEBD766E4DFEBE14E33FA75B98CEB703D15CB (void);
+extern void PreShaderPropExporter_get_VRM_UnlitTexture_mD412CE457AB499FB186A59155A679895B3C09A2E (void);
+extern void PreShaderPropExporter_get_VRM_UnlitTransparent_m4DCF8D353C21AFE217131D70ECC598D2A2E5A5FA (void);
+extern void PreShaderPropExporter_get_VRM_UnlitTransparentZWrite_mAE2F75661FED18350CD1B788FB95E598E9B2E8E4 (void);
+extern void PreShaderPropExporter__cctor_m5B6FF2EFC65B51B6A9228A2276173CF202840859 (void);
+extern void PreExportShadersAttribute__ctor_mCE7A5B1B4EB7F8E054BD06BBE9D882C9FA1364B7 (void);
+extern void PreExportShaderAttribute__ctor_mDC82411F18DF7AF8806FCF336E7DFCBA3024789A (void);
+extern void SupportedShader__ctor_m6ACD2F8E790CA38F6D81E5EAEE8CECB8998E45FE (void);
+extern void ShaderProperty__ctor_mCEF523041FB04F3794F2E2F1ACCD1F188942E282 (void);
+extern void ShaderProps__ctor_mC2FC0F337183818536D4CD7602ED909024B0FBB3 (void);
+static Il2CppMethodPointer s_methodPointers[21] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m8119551F50F7ADA07D98CBB4ADDDB356430636E8,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m888967EE98251027EAC905EED637164847D9B309,
+	PreExportShaders__cctor_m7AE3CC2D78F8C976B9FBFCD46349DEC57C2CCE7C,
+	PreShaderPropExporter_get_Standard_m770F5F2EC94A939E0C17941F4FFBA7E25381C40D,
+	PreShaderPropExporter_get_UniGLTF_UniUnlit_mE250B6D28FB54A6AFED114131E5752749219AFBF,
+	PreShaderPropExporter_get_Unlit_Color_m5C27BEBB5AB4842F30F1D94E71342A330D6E2A70,
+	PreShaderPropExporter_get_Unlit_Texture_m784822B229B0657093C53EBEB6346A9DCE5D8D40,
+	PreShaderPropExporter_get_Unlit_Transparent_m74811D559A78EF9F2830DAF545257A16A2011FA5,
+	PreShaderPropExporter_get_Unlit_Transparent_Cutout_mF12C89C2D4764A2B0FB271466473287D30E46A6D,
+	PreShaderPropExporter_GetPropsForSupportedShader_m83C332420D67AC339278F052EA491B2A256AB163,
+	PreShaderPropExporter_get_VRM_MToon_mD4075D49BFACB21DF5807D65389240389D10D239,
+	PreShaderPropExporter_get_VRM_UnlitCutout_m3BBCEBD766E4DFEBE14E33FA75B98CEB703D15CB,
+	PreShaderPropExporter_get_VRM_UnlitTexture_mD412CE457AB499FB186A59155A679895B3C09A2E,
+	PreShaderPropExporter_get_VRM_UnlitTransparent_m4DCF8D353C21AFE217131D70ECC598D2A2E5A5FA,
+	PreShaderPropExporter_get_VRM_UnlitTransparentZWrite_mAE2F75661FED18350CD1B788FB95E598E9B2E8E4,
+	PreShaderPropExporter__cctor_m5B6FF2EFC65B51B6A9228A2276173CF202840859,
+	PreExportShadersAttribute__ctor_mCE7A5B1B4EB7F8E054BD06BBE9D882C9FA1364B7,
+	PreExportShaderAttribute__ctor_mDC82411F18DF7AF8806FCF336E7DFCBA3024789A,
+	SupportedShader__ctor_m6ACD2F8E790CA38F6D81E5EAEE8CECB8998E45FE,
+	ShaderProperty__ctor_mCEF523041FB04F3794F2E2F1ACCD1F188942E282,
+	ShaderProps__ctor_mC2FC0F337183818536D4CD7602ED909024B0FBB3,
+};
+extern void SupportedShader__ctor_m6ACD2F8E790CA38F6D81E5EAEE8CECB8998E45FE_AdjustorThunk (void);
+extern void ShaderProperty__ctor_mCEF523041FB04F3794F2E2F1ACCD1F188942E282_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x06000013, SupportedShader__ctor_m6ACD2F8E790CA38F6D81E5EAEE8CECB8998E45FE_AdjustorThunk },
+	{ 0x06000014, ShaderProperty__ctor_mCEF523041FB04F3794F2E2F1ACCD1F188942E282_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[21] = 
+{
+	15144,
+	8695,
+	15099,
+	14960,
+	14960,
+	14960,
+	14960,
+	14960,
+	14960,
+	13844,
+	14960,
+	14960,
+	14960,
+	14960,
+	14960,
+	15099,
+	8695,
+	8695,
+	3744,
+	3736,
+	8695,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_VRMShaders_VRM_IO_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_VRMShaders_VRM_IO_Runtime_CodeGenModule = 
+{
+	"VRMShaders.VRM.IO.Runtime.dll",
+	21,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

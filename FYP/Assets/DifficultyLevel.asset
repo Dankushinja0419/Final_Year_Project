@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2818083e120f342af7bd7646cc3d4f, type: 3}
+  m_Name: DifficultyLevel
+  m_EditorClassIdentifier: 
+  level: 0
+  difficulty: 0
+  maxLevel: 3
+  money: 100000
+  drawColor: {r: 0, g: 0, b: 0, a: 1}
+  redObtain: 0
+  greenObtain: 0
+  blueObtain: 0
+  particleIdx: 0
+  particle1Obtain: 0
+  particle2Obtain: 0
+  particle3Obtain: 0
